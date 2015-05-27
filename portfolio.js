@@ -1,31 +1,33 @@
 var main = function () {
   "use strict";
   var main = function () {
-    $("#worklink").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#work").offset().top
+    $("#homelink").on("click",function( e ) {
+    e.preventDefault();
+    $("html, body").animate({
+        scrollTop: $( $(this).attr("#home")).offset().top
     }, 2000);
-    }
     
-    $("#aboutlink").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#about").offset().top
+    
+    $("#contactlink").on("click",function( e ) {
+    e.preventDefault();
+    $("html, body").animate({
+        scrollTop: $( $(this).attr("#contact")).offset().top
     }, 2000);
-    }
-    
-    $("#homelink").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#home").offset().top
+
+
+    $("#aboutlink").on("click",function( e ) {
+    e.preventDefault();
+    $("html, body").animate({
+        scrollTop: $( $(this).attr("#about")).offset().top
     }, 2000);
-    }
-    
-    $("#contactlink").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#contact").offset().top
+
+    $("#worklink").on("click",function( e ) {
+    e.preventDefault();
+    $("html, body").animate({
+        scrollTop: $( $(this).attr("#work")).offset().top
     }, 2000);
-    }
     
-}
+});
    
 
 $("document").ready(main);
