@@ -1,0 +1,161 @@
+body {
+	font-family: 'Neuton', serif; 
+	background-image: url("fuelrgb.jpg");
+	background-attachment: fixed;
+    background-position: center;
+}
+
+.kader {
+	width: 80%;
+	margin: 30px auto;
+	background-color: rgba(255,250,250,0.8);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+}
+
+.cirkel {
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.7em;
+	background-color: black;
+	width: 100px;
+	height: 65px;
+	color: white;
+	position: relative;
+	border-radius: 50%;
+	padding-top: 25px;
+	text-align: center;
+	margin: 20px auto;
+}
+
+.nav {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 35%;
+	margin: auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1.4em;
+	color: black;
+	padding: 0 15px;
+}
+
+.content p {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.xx {
+	font-size: 1.7em;
+	font-family: 'Dancing Script', cursive;
+	padding-bottom: 20px;
+}
+
+.arrow {
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+.arrow img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+h1 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 1.4em;
+}
+
+.about {
+	width: 40%;
+	margin: auto;
+	position: relative;
+	margin-bottom: 30px;
+	}
+
+.about img {
+	margin: auto;
+	padding-right: 20px;
+	float: left;
+}
+
+.about p {
+	text-align: left;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.contact p {
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+.contact fieldset {
+	margin-bottom: 10px;
+	display: block;
+}
+
+.form1 {
+	float: left;
+	margin-left: 20%;
+	margin-right: 5%;
+	width: 30%;
+}
+
+input {
+    float: left;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+textarea {
+    float: left;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+fieldset {
+    width: 40%;
+}
+
+.form2 {
+	float: right;
+	margin-right: 20%;
+	margin-left: 5%;
+	width: 20%;
+}
+
+.form2 input {
+    margin-right: 2%;
+}
+
+.clear {
+	clear: both;
+}
+
+@media (max-width: 800px) {
+	.about img {
+		float: none;
+	}
+	.contact fieldset {
+		margin-left: 10px;
+	}
+}
