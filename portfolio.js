@@ -1,6 +1,6 @@
 var main = function () {
   "use strict";
-  var main = function () {
+  
     $("#homelink").on("click",function( e ) {
     e.preventDefault();
     $("html, body").animate({
@@ -26,6 +26,15 @@ var main = function () {
     $("html, body").animate({
         scrollTop: $( $(this).attr("#work")).offset().top
     }, 2000);
+
+    
+ 
+    $("#go-top").on("click",function( e ) {
+    e.preventDefault();
+    $("html, body").animate({
+        scrollTop: $( $(this).attr("#top")).offset().top
+    }, 2000);
+            
     
 });
    
